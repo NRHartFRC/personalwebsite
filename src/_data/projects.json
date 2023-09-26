@@ -17,7 +17,7 @@
     "title": "Exchange",
     "description": "ERC-20 Token Exchange",
     "image": "./projectImages/tokenexchange.png",
-    "image2": "%PUBLIC_URL%/projectImages/ether.png",
+    "image2": "..projectImages/ether.png",
     "image3": "../projectImages/ethertoken.png",
     "technologies": ["ReactJS", "Redux", "Solidity", "HTML", "CSS", "HardHat"],
     "body": "Broh, I'll trade you a Pepecoin for an Apecoin.\nMy personal, decentralized app (a.k.a. 'dApp') for trading permissionless cryptocurrencies (ERC-20 tokens) on public blockchains. Simply connect a wallet, deposit funds, execute asynchronous trades, and withdrawal profits on-demand.\nPersonal use only. As of 2023, this dApp is currently unavailable for public use due to both Know Your Customer (KYC) & Anti-Money Laundering (AML) regulations, and personal protection. Compliance coming soon! 📱 🌐",
