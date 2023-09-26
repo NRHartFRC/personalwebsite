@@ -11,9 +11,6 @@ const Resume = ({ brand }) => {
   // Calculate the delay based on the length of the 'brand' variable
   const dramatic = brand.length * 0.005; // Adjust the multiplier as needed
 
-  // Log the value of 'dramatic' to the console
-  console.log("The value of dramatic is:", dramatic);
-
   return (
     <section className="resume container">
       <PageHeader title="Resume" description="Uncover my expertise" />

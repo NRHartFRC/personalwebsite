@@ -2,7 +2,7 @@
   {
     "title": "Arbitrage",
     "description": "Trade Wisely",
-    "image": "%PUBLIC_URL%/projectImages/arbitrage.png",
+    "image": "./personalwebsite/projectImages/arbitrage.png",
     "image2": "./projectImages/arbitragealgorithm.png",
     "image3": "/projectImages/arboutput.png",
     "body": "So get this: I had an income problem. Just get a job, right? Sure, however, I wanted a source of passive income. That was when I discovered the magic of Web3, blockchain, and the Ethereum ecosystem! A 'bot' executes profitable trades on my behalf by leveraging flashloans when it finds an arbitrage opportunity. Arbi-what? Flash-who? Press View Code button to see a detailed README file.\nHow? Well, the algorithm checks the prices of an ERC-20 token on different exchanges, determines the trade direction, determines profitability, then executes if and when specified conditions are met. The algorithm ① buys tokens through Market A, ② waits for an arbitrage opportunity, ③ 'swaps' the ERC-20 tokens from Market A for those in Market B, then the bot ④ sells the tokens for profit!",
