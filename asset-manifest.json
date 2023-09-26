@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personalwebsite/static/css/main.00bb8e07.css",
-    "main.js": "/personalwebsite/static/js/main.baec912a.js",
+    "main.js": "/personalwebsite/static/js/main.7bb6836c.js",
     "static/media/nrprofile.png": "/personalwebsite/static/media/nrprofile.2775fe2e223810561e8d.png",
     "static/media/nr-removebg.png": "/personalwebsite/static/media/nr-removebg.29adead3b7d115cd0657.png",
     "static/media/nrlogomod.svg": "/personalwebsite/static/media/nrlogomod.4d4d0634d4b0b4cea689f6323d6170eb.svg",
@@ -9,10 +9,10 @@
     "static/media/close.svg": "/personalwebsite/static/media/close.313a8e6ce95e72014ca00fb56d8b3ff3.svg",
     "static/media/open.svg": "/personalwebsite/static/media/open.196e865822b06a50385b031f9913c3a0.svg",
     "main.00bb8e07.css.map": "/personalwebsite/static/css/main.00bb8e07.css.map",
-    "main.baec912a.js.map": "/personalwebsite/static/js/main.baec912a.js.map"
+    "main.7bb6836c.js.map": "/personalwebsite/static/js/main.7bb6836c.js.map"
   },
   "entrypoints": [
     "static/css/main.00bb8e07.css",
-    "static/js/main.baec912a.js"
+    "static/js/main.7bb6836c.js"
   ]
 }
