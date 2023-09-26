@@ -157,7 +157,7 @@ Project Link: [https://github.com/nrhartfrc/personalwebsite](https://github.com/
 <!-- [stars-shield]: https://img.shields.io/github/stars/mdyeates/my-portfolio.svg?style=for-the-badge -->
 <!-- [stars-url]: https://github.com/mdyeates/my-portfolio/stargazers -->
 
-[contributors-shield]: https://img.shields.io/badge/CONTRIBUTORS-1-red
+[contributors-shield]: https://img.shields.io/badge/CONTRIBUTORS-2-red
 [contributors-url]: https://github.com/nrhartfrc/personalwebsite/graphs/contributors
 [license-shield]: https://img.shields.io/badge/LICENSE-CC_BY-blue
 [license-url]: https://creativecommons.org/licenses/by/4.0/
