@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { NavLink } from "react-router-dom";
 import Button from "./Button";
-import aboutMeImg from "../images/aboutme.jpeg";
+import aboutMeImg from "../images/nrprofile.png";
 
 /**
  * Represents the About Me section.
@@ -54,8 +54,8 @@ const AboutMe = ({ name }) => {
           <div className="personalInfo col-12 col-lg-6">
             <motion.div className="contentContainer" variants={staggerVariants}>
               {/* Display greeting and job title with animation */}
-              <motion.h4 variants={paragraphVariants}>Nice to meet you! 👋🏻</motion.h4>
-              <motion.h5 variants={paragraphVariants}>I'm a Software Engineer at Amazon.</motion.h5>
+              <motion.h4 variants={paragraphVariants}>Hi, it is nice to meet you! 👋🏻</motion.h4>
+              <motion.h5 variants={paragraphVariants}>I am an experienced Design Engineer, Robotics Coach & Mentor, and full-time nerd.</motion.h5>
 
               {/* Display content description with animation */}
               <motion.div
@@ -66,31 +66,41 @@ const AboutMe = ({ name }) => {
               >
                 {/* Paragraphs with animation */}
                 <motion.p variants={paragraphVariants}>
-                  Today, I find myself knee-deep in an exhilarating chapter of my journey as a degree apprentice at the
-                  tech titan, <span style={{ color: "var(--hl-color)" }}> Amazon</span>. My playground? The captivating
-                  universe of <span style={{ color: "var(--hl-color)" }}> Alexa</span>.
+                  Today, my professional journey is in flux. As a Coach and Mentor of a 'home-roots'
+                  <span style={{ color: "var(--hl-color)" }}> <i>FIRST<sup>™</sup></i> Robotics Competition team</span>, I am learning more each day! 
+                  My playgrounds? The captivating universes of <span style={{ color: "var(--hl-color)" }}> CAD</span>, investing, 
+                  <span style={{ color: "var(--hl-color)" }}> Mother Nature</span>, robotics,
+                  <a href="https://en.wikipedia.org/wiki/Mycorrhizal_network" style={{ textDecoration: 'none' }}>
+                    <span style={{ color: "var(--hl-color)" }}> the "Wood Wide Web"</span>
+                  </a>, 
+                  artificial intelligence, and <span style={{ color: "var(--hl-color)" }}> blockchain ecosystems</span>.
                 </motion.p>
                 <br />
                 <motion.p variants={paragraphVariants}>
-                  Here, I don my <span style={{ color: "var(--hl-color)" }}> problem-solving </span>
-                  cape and dive headfirst into real-world challenges, all while relentlessly pursuing a{" "}
-                  <span style={{ color: "var(--hl-color)" }}> Digital and Technology Solutions</span> degree from the
-                  University of Roehampton. So here I am, juggling bits of binary and real-life conundrums, all while
-                  crafting my own success story.
+                  Here, I don my <span style={{ color: "var(--hl-color)" }}> curiosity </span>
+                  cap and dive headfirst into the circle of life, all while relentlessly building a career using my {" "}
+                  <span style={{ color: "var(--hl-color)" }}> B.S.E in Product Design & Manufacturing</span> from 
+                  Grand Valley State University. Get wet Lakers! ⚓
                 </motion.p>
                 <br />
                 <motion.p variants={paragraphVariants}>
-                  Life is a kaleidoscope of experiences, far beyond the confines of work. When code isn't my focus, I'm
-                  conquering cycling routes, feeling the wind on spirited runs, and fueling my love for Formula One.
-                  Amid serene moments, I transform into a film aficionado, seeking films that kindle inspiration and
-                  provoke thought.
+                  Life is a constellation of experiences, far beyond the confines of work. When engineering is not my focus, I am
+                  shredding double-black diamonds on my snowboard, kayaking in remote rivers, admiring classic cars, listening to music, or collecting my thoughts.
+                  Amid serene moments, I dissolve into wonder how quantum fluctuations can exist in a vacuum. My purpose is to find a hidden book-of-knowledge.
                 </motion.p>
               </motion.div>
 
               {/* Button to view the portfolio */}
-              <NavLink to="/portfolio">
-                <Button name="View Portfolio" />
-              </NavLink>
+              <div style={{ display: "flex", gap: "10px", opacity: 1, transform: "none" }}>
+                {/* Button to view the portfolio */}
+                <NavLink to="/portfolio" style={{ display: "flex", gap: "10px", opacity: 1, transform: "none" }}>
+                  <Button name="View Portfolio" />
+                </NavLink>
+                {/* Button to view the resume */}
+                <NavLink to="/resume" style={{ display: "flex", gap: "10px", opacity: 1, transform: "none" }}>
+                  <Button name="Jump to Resume" />
+                </NavLink>
+              </div>
             </motion.div>
           </div>
         </div>

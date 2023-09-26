@@ -6,6 +6,7 @@
   --bg2-color: #232f3e19;
   --hl-color: #48a3c6;
   --hl2-color: #ea5b5c;
+  --hl3-color: #fa8a28;
   --text-color: #f3f3f3;
   --secondary-text-color: #999999;
   --grey: #9f9f9f76;
@@ -144,7 +145,7 @@ header {
 }
 
 .logo {
-  height: 30px;
+  height: 40px;
 }
 
 .links {
@@ -219,7 +220,7 @@ header {
 
 /* --- FOOTER --- */
 footer {
-  font-size: 14px;
+  font-size: 8px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -240,6 +241,9 @@ footer .footer-link {
 }
 footer .footer-link:hover {
   color: var(--hl2-color);
+}
+footer .footer-soclink:hover {
+  color: var(--hl3-color);
 }
 
 footer .socialIcons {

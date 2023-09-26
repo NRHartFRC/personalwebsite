@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react";
-import { AiOutlineStar } from "react-icons/ai";
-import { BiGitRepoForked } from "react-icons/bi";
+// import { useState, useEffect } from "react";
+// import { AiOutlineStar } from "react-icons/ai";
+// import { BiGitRepoForked } from "react-icons/bi";
 import { motion } from "framer-motion";
 import SocialIcons from "./SocialIcons";
 
@@ -14,25 +14,25 @@ const Footer = () => {
   const date = new Date();
   const currentYear = date.getFullYear();
 
-  // State to hold GitHub information
-  const [gitHubInfo, setGitHubInfo] = useState({
-    stars: null,
-    forks: null,
-  });
+  // // State to hold GitHub information
+  // const [gitHubInfo, setGitHubInfo] = useState({
+  //   stars: null,
+  //   forks: null,
+  // });
 
-  useEffect(() => {
-    // Fetch GitHub repository information
-    fetch("https://api.github.com/repos/mdyeates/my-portfolio")
-      .then((res) => res.json())
-      .then((json) => {
-        const { stargazers_count, forks_count } = json;
-        setGitHubInfo({
-          stars: stargazers_count,
-          forks: forks_count,
-        });
-      })
-      .catch((e) => console.error(e));
-  }, []);
+  // useEffect(() => {
+  //   // Fetch GitHub repository information
+  //   fetch("https://api.github.com/repos/mdyeates/my-portfolio")
+  //     .then((res) => res.json())
+  //     .then((json) => {
+  //       const { stargazers_count, forks_count } = json;
+  //       setGitHubInfo({
+  //         stars: stargazers_count,
+  //         forks: forks_count,
+  //       });
+  //     })
+  //     .catch((e) => console.error(e));
+  // }, []);
 
   // Variants for button animation
   const buttonVariants = {
@@ -50,20 +50,20 @@ const Footer = () => {
       <SocialIcons />
 
       {/* GitHub repository link */}
-      <a className="footer-link" href="https://github.com/mdyeates/my-portfolio">
-        <span>
+      <div className="footer-link">
+        {/* <span>
           <AiOutlineStar /> {gitHubInfo.stars} <BiGitRepoForked />
           {gitHubInfo.forks} - Give this project a star!
-        </span>
-        <p>
-          <span>▷</span> Designed and built by Michael Yeates &copy; {currentYear}
-        </p>
-        <p>All views and work are my own</p>
-      </a>
+        </span> */}
+        <div><span>▷</span> Curated x <a href="https://nrhartfrc.github.io/resume/" target="_blank" rel="noopener noreferrer" className="footer-soclink !important">Nicholas Rombach</a> &copy; {currentYear} <span>◁</span></div>
+        &nbsp;
+        <div><span>▷</span> Originated x <a href="https://github.com/mdyeates/my-portfolio" target="_blank" rel="noopener noreferrer" className="footer-soclink !important"> Michael Yeates</a> &copy; {currentYear} <span>◁</span></div>
+        &nbsp;
+      </div>
 
       {/* Buy Me A Coffee link */}
       <motion.a
-        href="https://www.buymeacoffee.com/mdyeates"
+        href="https://www.buymeacoffee.com/nrombach"
         initial="initial"
         whileHover="hover"
         whileTap="tap"

@@ -19,6 +19,7 @@ import Button from "./Button";
  * 1. Create a .env file in the root directory.
  * 2. Copy and paste the following line into your .env file, replacing with your API key:
  *    REACT_APP_ACCESS_KEY="Your API Key"
+ * 3. Ensure to npm run build or npm start to register changes
  *
  */
 

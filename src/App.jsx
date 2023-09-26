@@ -38,11 +38,11 @@ import PageNotFound from "./pages/404/PageNotFound";
 function App() {
   // Personal details for the user
   const personalDetails = {
-    name: "Michael Yeates",
-    location: "United Kingdom",
-    email: "michael-yeates@outlook.com",
+    name: "Nicholas Rombach",
+    location: "United States",
+    email: "rombachnicholas@gmail.com",
     brand:
-      "My unique blend of technical expertise, creative thinking, and background in psychology allows me to approach each project with a deep understanding of the end user's perspective, resulting in highly effective user-centred digital products.",
+      "My unique blend of technical acumen, creative thinking, and curiosity allows me to approach each project with empathy, resulting in highly effective, user-centered products. ✅",
   };
 
   const location = useLocation();
@@ -66,7 +66,7 @@ function App() {
     // Handle document title change when tab visibility changes
     const handleTabChange = () => {
       if (document.hidden) {
-        document.title = "👋🏻 Git pulling you back in!";
+        document.title = "👋🏻 I can wait";
       } else {
         document.title = originalTitle;
       }

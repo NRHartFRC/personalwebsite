@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
-import logo from "../images/logo.svg";
+import logo from "../images/nrlogomod.svg";
 import NavLinks from "./NavLinks";
 
 /**
@@ -26,7 +26,7 @@ const Header = () => {
             whileTap={{ scale: 0.9 }}
             className="logo"
             src={logo}
-            alt="Michael Yeates' Logo"
+            alt="Nicholas Rombach's Logo"
           />
         </motion.div>
       </NavLink>

@@ -4,13 +4,25 @@
   align-items: center;
   overflow: hidden;
   margin-top: var(--spacing);
-  padding-bottom: var(--spacing);
+  padding-bottom: var(--sm-spacing);
 }
 
 .brand {
-  font-size: 30px;
+  font-size: 18px;
   color: var(--text-color);
-  padding: var(--spacing);
+  padding: var(--sm-spacing);
   margin: var(--sm-spacing);
   text-align: center;
+}
+
+@media (min-width: 750px) {
+
+  .brand {
+    font-size: 30px;
+    color: var(--text-color);
+    padding: var(--spacing);
+    margin: var(--sm-spacing)/2;
+    text-align: center;
+  }
+
 }

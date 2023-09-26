@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
-import landingImage from "../images/suit.png";
+import landingImage from "../images/nr-removebg.png";
 import SocialIcons from "./SocialIcons";
 
 /**
@@ -65,7 +65,7 @@ const Hero = ({ name }) => {
               cursor: "",
             }}
             onInit={(typewriter) => {
-              typewriter.changeDelay(50).typeString("Software Engineer").start();
+              typewriter.changeDelay(50).typeString("Product Design & Manufacturing Engineer").start();
             }}
           />
         </motion.div>
