@@ -1,3 +1,6 @@
 # https://www.robotstxt.org/robotstxt.html
+
+Sitemap: https://nrhartfrc.github.io/personalwebsite/sitemap.xml
+  
 User-agent: *
 Disallow:
