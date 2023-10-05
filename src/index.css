@@ -145,7 +145,7 @@ header {
 }
 
 .logo {
-  height: 40px;
+  height: 35px;
 }
 
 .links {
@@ -220,7 +220,7 @@ header {
 
 /* --- FOOTER --- */
 footer {
-  font-size: 8px;
+  font-size: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -314,4 +314,46 @@ footer .socialIcons {
   .toggleMode {
     display: inline-block;
   }
+}
+
+/* --- PORTFOLIO --- */
+
+.image-gallery-image {
+  border-radius: 5px;
+}
+
+/* .image-gallery-image:hover {
+  transform: scale(1.05) !important;
+  transition: transform 1s ease-in-out !important;
+} */
+
+/* override carousel styles */
+.image-gallery-description {
+  background: rgba(0, 0, 0, 0.699) !important;
+  font-size: 10px !important;
+  line-height: 0.25 !important;
+  left: 3px !important;
+  bottom: 0px !important;
+  border-radius: 5px !important;
+  padding: 7.5px 10px !important;
+}
+
+.react-photo-album--photo {
+  border-radius: 5px;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.image-gallery-svg {
+  animation: pulse 2s infinite;
 }

@@ -76,7 +76,7 @@
     "image2": "../projectImages/pidtune.png",
     "image3": "../projectImages/circuit.png",
     "technologies": ["Java", "VS Code", "REV SparkMax", "CAN Bus", "roboRIO", "PID"],
-    "body": "Gee wilickers, is that PID tuning? You bet! Welcome to the prestige of closed loop, position feedback control. Cool, here is the deal:\nThis program will be used as a starter code - I will train high school students for a world-wide robotics competition using this Java program. We have a few months to prepare before we compete! This Java code uses the RoboRIO as a PID controller. When paired with SmartDashboard application, it can be used with an analog sensor (potentiometer) and manual inputs to control the EXACT position of a motor! 📏\n",
+    "body": "Gee wilickers, is that PID tuning? You bet! Welcome to the prestige of closed loop, position feedback control. Cool, here is the deal:\nThis program will be used as a starter code. I will train high school students for a world-wide robotics competition using this Java program. We have a few months to prepare before we compete! This Java code uses the RoboRIO as a PID controller. When paired with SmartDashboard application, it can be used with an analog sensor (potentiometer) and manual inputs to control the EXACT position of a motor! 📏\n",
     "github": "https://github.com/NRHartFRC/Position-Closed-Loop-PID-Control",
     "deployed": "https://drive.google.com/file/d/14nD4MGXYpmLmDjbp2KPoN8eAUyaJn56h/view?usp=sharing",
     "bgcolor": "#f85781",
