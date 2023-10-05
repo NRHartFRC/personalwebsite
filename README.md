@@ -77,6 +77,10 @@
 
 [![My React Portfolio Screen Shot][product-screenshot5]](https://nrhartfrc.github.io/personalwebsite)
 
+[![My React Portfolio Screen Shot][product-screenshot6]](https://nrhartfrc.github.io/personalwebsite)
+
+[![My React Portfolio Screen Shot][product-screenshot7]](https://nrhartfrc.github.io/personalwebsite)
+
 <!-- [![My React Portfolio Mobile Screen Shot][responsive-screenshot1]](https://nrhartfrc.github.io/personalwebsite)
 
 [![My React Portfolio Mobile Screen Shot][responsive-screenshot2]](https://nrhartfrc.github.io/personalwebsite)
@@ -173,6 +177,8 @@ Project Link: [https://github.com/nrhartfrc/personalwebsite](https://github.com/
 [product-screenshot3]: src/images/3.png
 [product-screenshot4]: src/images/4.png
 [product-screenshot5]: src/images/5.png
+[product-screenshot6]: src/images/6.png
+[product-screenshot7]: src/images/7.png
 [responsive-screenshot1]: src/images/mobile1.png
 [responsive-screenshot2]: src/images/mobile2.png
 [responsive-screenshot3]: src/images/mobile3.png
